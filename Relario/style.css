@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+     background-repeat: no-repeat;
+     background-image: url("https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg");
+     background-size: cover;
+     
+
+}
+
+.titulo{ 
+    
+    font-family:sans-serif;
+    color:rgb(255, 255, 255);
+    
+
+}
+
+
+.paragrafo{
+    font-family:sans-serif;
+    color:rgb(255, 255, 255);
+    line-height:1.2;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+form{
+    display: block;
+    background-color: rgba(86, 86, 88, 0.822);
+    border-radius: 20px;
+    width: 32%;
+    margin:auto;
+    margin-top: 7%;
+    padding: 50px; 
+
+    
+}
+
+fieldset{
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 3px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+.marck {
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+.block label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.campo label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display:block;  
+}
+
+.marck label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 10%;
+}
+
+
+.block{
+    display: inline-block; 
+
+}
+
+.block input[type="text"]{
+    display: block;
+    padding: 0.2em;
+    border:1px solid rgb(136, 137, 138);
+    box-shadow: 2px 2px 2px rgba(253, 152, 0, 0.466);
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border:1px solid rgb(144, 144, 145);
+    box-shadow: 2px 2px 2px rgba(253, 152, 0, 0.466);
+    display:block;
+    resize: vertical;  
+    
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .block input:focus, .campo select:focus, .campo textarea:focus{
+    background: rgb(138, 138, 139);
+    resize: vertical;  
+    
+}
+ 
+.botao {
+    font-size: 1.2em;
+    background: rgba(100, 100, 102, 0.788);
+    border: 0;
+    margin-bottom: 1em;
+    color: snow;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(173, 104, 0, 0.979);
+    text-shadow: 1px 1px 1px rgba(173, 104, 0, 0.979);
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: rgba(129, 133, 134, 0.719);
+    box-shadow: inset 2px 2px 2px rgba(173, 104, 0, 0.979);
+    text-shadow: none;
+}

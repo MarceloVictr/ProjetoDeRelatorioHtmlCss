@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet"/>
+        <title>Formulario Do Desenvolvedor</title>
+    </head> 
+
+    <body>
+        </div>
+            <form>
+                <div class="titulo">
+                    <h1>Formulario Do Desenvolvedor</h1>
+                </div>
+                <div class="paragrafo">
+                    <p>Preencha com suas informações</p>
+                    <br>
+                <fieldset class="grupo">
+                    <div class="block">
+                        <label>Nome:</label>
+                        <input type="text" name="name" id="name" class="inputUser">
+                    </div>
+                    <div class="block">
+                        <label>Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    
+                    <label>Email:</label>
+                    <input type="email" name="email" id="email">
+                    
+                </div>
+                <div class="campo">
+                    <label>Em qual área você desenvolve?</label>
+                    <label>
+                        <input type="radio" name="devweb" id="frontend">front-end 
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" id="backend">Back-end 
+                    </label>
+                    <label>
+                        <input type="radio" name="devweb" id="fullstack">Fullstack
+                    </label>
+                </div>
+                <div class="campo">
+                    <label>Senioridade:</label>
+                    <select class="Senioridade">
+                       <option selected disabled value="">Selecione</option>
+                       <option>Junior</option>
+                       <option>Pleno</option>
+                       <option>Senior</option>
+                    </select>
+                </div>
+
+                <fieldset class="grupo">
+                    <div class="marck">
+                        <label>Selecione suas favoritas:</label><br><br>
+                             <input type="checkbox" id="lingueagem1" name="lingueagem1" value="python">
+                             <label for="lingueagem1">Python</label>
+                             <input type="checkbox" id="linguagem2" name="linguagem2" value="java">
+                             <label for="linguagen2">Java</label>
+                             <input type="checkbox" id="linguagem3" name="linguagem3" value="javascript">
+                             <label for="linguagen3">Javascript</label>
+                             <input type="checkbox" id="linguagem4" name="linguagen4" value="php">
+                             <label for="linguagem4">PHP</label>
+                             <input type="checkbox" id="linguagem5" name="linguagem5" value="c">
+                             <label for="linguagem5">C</label>
+                             <input type="checkbox" id="linguagem6" name="linguagem6" value="c#">
+                             <label for="linguagem6">C#</label>
+
+                    </div>
+                    <div class="marck">
+                             <label>Selecione o que voce mais gosta de fazer em horarios livres:</label><br><br>
+                             <input type="checkbox" id="rob1" name="rob1" value="exercicio">
+                             <label for="rob1">Exercicio</label>
+                             <input type="checkbox" id="rob2" name="rob2" value="games">
+                             <label for="rob2">Games</label>
+                             <input type="checkbox" id="rob3" name="rob3" value="dormir">
+                             <label for="rob3">Dormir</label>
+                             <input type="checkbox" id="rob4" name="rob4" value="caminhar">
+                             <label for="rob4">Caminhar</label>
+                             <input type="checkbox" id="rob5" name="rob5" value="ler">
+                             <label for="rob5">Ler</label>
+                             <input type="checkbox" id="rob6" name="rob6" value="ouvir musica">
+                             <label for="rob6">Ouvir musica</label>
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label>Conte um pouco do seu dia a dia</label>
+                    <textarea row="6" style="width: 80%" id="dia_a_dia" name="dia_a_dia"></textarea>
+                </div>
+                <button class="botao" type="submit">Concluido</button>
+            </form>
+    </body>
+</html>
